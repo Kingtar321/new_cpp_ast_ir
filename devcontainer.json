@@ -1,0 +1,14 @@
+{
+  "name": "cpp-ast-tool",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "remoteUser": "vscode"
+}

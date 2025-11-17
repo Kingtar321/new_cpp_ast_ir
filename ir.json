@@ -1,0 +1,4987 @@
+{
+  "classes": [
+    {
+      "name": "allocator",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "ios_base",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "type_info",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "__make_unsigned_selector_base",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "locale",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "ctype",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "ctype",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "codecvt_base",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "codecvt",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "codecvt",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "codecvt",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "codecvt",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "time_base",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "money_base",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "allocator",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "allocator",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "allocator",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "__forced_unwind",
+      "fields": [],
+      "methods": [
+        {
+          "name": "__pure_dummy",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/cxxabi_forced.h:53"
+        }
+      ]
+    },
+    {
+      "name": "__undefined",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_string",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_string",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "tuple",
+      "fields": [],
+      "methods": [
+        {
+          "name": "swap",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "tuple<> &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/tuple:1220"
+        },
+        {
+          "name": "tuple",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/tuple:1226"
+        }
+      ]
+    },
+    {
+      "name": "locale",
+      "fields": [
+        {
+          "name": "_M_impl",
+          "type": "_Impl *"
+        }
+      ],
+      "methods": [
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:121"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__other",
+              "type": "const locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:130"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__s",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:141"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__base",
+              "type": "const locale &"
+            },
+            {
+              "name": "__s",
+              "type": "const char *"
+            },
+            {
+              "name": "__cat",
+              "type": "category"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:155"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__s",
+              "type": "const std::string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:167"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__base",
+              "type": "const locale &"
+            },
+            {
+              "name": "__s",
+              "type": "const std::string &"
+            },
+            {
+              "name": "__cat",
+              "type": "category"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:181"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__base",
+              "type": "const locale &"
+            },
+            {
+              "name": "__add",
+              "type": "const locale &"
+            },
+            {
+              "name": "__cat",
+              "type": "category"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:196"
+        },
+        {
+          "name": "operator=",
+          "return": "const locale &",
+          "parameters": [
+            {
+              "name": "__other",
+              "type": "const locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:224"
+        },
+        {
+          "name": "name",
+          "return": "string",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:249"
+        },
+        {
+          "name": "operator==",
+          "return": "bool",
+          "parameters": [
+            {
+              "name": "__other",
+              "type": "const locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:259"
+        },
+        {
+          "name": "operator!=",
+          "return": "bool",
+          "parameters": [
+            {
+              "name": "__other",
+              "type": "const locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:269"
+        },
+        {
+          "name": "global",
+          "return": "locale",
+          "parameters": [
+            {
+              "name": "__loc",
+              "type": "const locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:305"
+        },
+        {
+          "name": "classic",
+          "return": "const locale &",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:311"
+        },
+        {
+          "name": "locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "_Impl *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:346"
+        },
+        {
+          "name": "_S_initialize",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:349"
+        },
+        {
+          "name": "_S_initialize_once",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:352"
+        },
+        {
+          "name": "_S_normalize_category",
+          "return": "category",
+          "parameters": [
+            {
+              "name": "",
+              "type": "category"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:355"
+        },
+        {
+          "name": "_M_coalesce",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__base",
+              "type": "const locale &"
+            },
+            {
+              "name": "__add",
+              "type": "const locale &"
+            },
+            {
+              "name": "__cat",
+              "type": "category"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:358"
+        }
+      ]
+    },
+    {
+      "name": "facet",
+      "fields": [
+        {
+          "name": "_M_refcount",
+          "type": "_Atomic_word"
+        }
+      ],
+      "methods": [
+        {
+          "name": "_S_initialize_once",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:396"
+        },
+        {
+          "name": "facet",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:409"
+        },
+        {
+          "name": "_S_create_c_locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__cloc",
+              "type": "__c_locale &"
+            },
+            {
+              "name": "__s",
+              "type": "const char *"
+            },
+            {
+              "name": "__old",
+              "type": "__c_locale"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:417"
+        },
+        {
+          "name": "_S_clone_c_locale",
+          "return": "__c_locale",
+          "parameters": [
+            {
+              "name": "__cloc",
+              "type": "__c_locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:421"
+        },
+        {
+          "name": "_S_destroy_c_locale",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__cloc",
+              "type": "__c_locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:424"
+        },
+        {
+          "name": "_S_lc_ctype_c_locale",
+          "return": "__c_locale",
+          "parameters": [
+            {
+              "name": "__cloc",
+              "type": "__c_locale"
+            },
+            {
+              "name": "__s",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:427"
+        },
+        {
+          "name": "_S_get_c_locale",
+          "return": "__c_locale",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:432"
+        },
+        {
+          "name": "_S_get_c_name",
+          "return": "const char *",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:435"
+        },
+        {
+          "name": "facet",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const facet &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:444"
+        },
+        {
+          "name": "operator=",
+          "return": "facet &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const facet &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:447"
+        },
+        {
+          "name": "_M_add_reference",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:452"
+        },
+        {
+          "name": "_M_remove_reference",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:456"
+        },
+        {
+          "name": "_M_sso_shim",
+          "return": "const facet *",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const id *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:470"
+        },
+        {
+          "name": "_M_cow_shim",
+          "return": "const facet *",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const id *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:471"
+        }
+      ]
+    },
+    {
+      "name": "id",
+      "fields": [
+        {
+          "name": "_M_index",
+          "type": "size_t"
+        }
+      ],
+      "methods": [
+        {
+          "name": "operator=",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const id &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:516"
+        },
+        {
+          "name": "id",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const id &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:518"
+        },
+        {
+          "name": "id",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:524"
+        },
+        {
+          "name": "_M_id",
+          "return": "size_t",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:527"
+        }
+      ]
+    },
+    {
+      "name": "_Impl",
+      "fields": [
+        {
+          "name": "_M_refcount",
+          "type": "_Atomic_word"
+        },
+        {
+          "name": "_M_facets",
+          "type": "const facet **"
+        },
+        {
+          "name": "_M_facets_size",
+          "type": "size_t"
+        },
+        {
+          "name": "_M_caches",
+          "type": "const facet **"
+        },
+        {
+          "name": "_M_names",
+          "type": "char **"
+        }
+      ],
+      "methods": [
+        {
+          "name": "_M_add_reference",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:570"
+        },
+        {
+          "name": "_M_remove_reference",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:574"
+        },
+        {
+          "name": "_Impl",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const _Impl &"
+            },
+            {
+              "name": "",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:588"
+        },
+        {
+          "name": "_Impl",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            },
+            {
+              "name": "",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:589"
+        },
+        {
+          "name": "_Impl",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:590"
+        },
+        {
+          "name": "_Impl",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const _Impl &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:594"
+        },
+        {
+          "name": "operator=",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const _Impl &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:597"
+        },
+        {
+          "name": "_M_check_same_name",
+          "return": "bool",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:600"
+        },
+        {
+          "name": "_M_replace_categories",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const _Impl *"
+            },
+            {
+              "name": "",
+              "type": "category"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:611"
+        },
+        {
+          "name": "_M_replace_category",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const _Impl *"
+            },
+            {
+              "name": "",
+              "type": "const locale::id *const *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:614"
+        },
+        {
+          "name": "_M_replace_facet",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const _Impl *"
+            },
+            {
+              "name": "",
+              "type": "const locale::id *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:617"
+        },
+        {
+          "name": "_M_install_facet",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const locale::id *"
+            },
+            {
+              "name": "",
+              "type": "const facet *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:620"
+        },
+        {
+          "name": "_M_install_cache",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const facet *"
+            },
+            {
+              "name": "",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:636"
+        },
+        {
+          "name": "_M_init_extra",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "facet **"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:638"
+        },
+        {
+          "name": "_M_init_extra",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "void *"
+            },
+            {
+              "name": "",
+              "type": "void *"
+            },
+            {
+              "name": "",
+              "type": "const char *"
+            },
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_classes.h:639"
+        }
+      ]
+    },
+    {
+      "name": "collate",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "collate_byname",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "collate",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "collate_byname",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "logic_error",
+      "fields": [
+        {
+          "name": "_M_msg",
+          "type": "__cow_string"
+        }
+      ],
+      "methods": [
+        {
+          "name": "logic_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:120"
+        },
+        {
+          "name": "logic_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:124"
+        },
+        {
+          "name": "logic_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "logic_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:126"
+        },
+        {
+          "name": "operator=",
+          "return": "logic_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "logic_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:127"
+        },
+        {
+          "name": "logic_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const logic_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:131"
+        },
+        {
+          "name": "operator=",
+          "return": "logic_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const logic_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:132"
+        },
+        {
+          "name": "what",
+          "return": "const char *",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:143"
+        }
+      ]
+    },
+    {
+      "name": "domain_error",
+      "fields": [],
+      "methods": [
+        {
+          "name": "domain_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:156"
+        },
+        {
+          "name": "domain_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:158"
+        },
+        {
+          "name": "domain_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const domain_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:159"
+        },
+        {
+          "name": "operator=",
+          "return": "domain_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const domain_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:160"
+        },
+        {
+          "name": "domain_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "domain_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:161"
+        },
+        {
+          "name": "operator=",
+          "return": "domain_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "domain_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:162"
+        }
+      ]
+    },
+    {
+      "name": "invalid_argument",
+      "fields": [],
+      "methods": [
+        {
+          "name": "invalid_argument",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:171"
+        },
+        {
+          "name": "invalid_argument",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:173"
+        },
+        {
+          "name": "invalid_argument",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const invalid_argument &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:174"
+        },
+        {
+          "name": "operator=",
+          "return": "invalid_argument &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const invalid_argument &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:175"
+        },
+        {
+          "name": "invalid_argument",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "invalid_argument &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:176"
+        },
+        {
+          "name": "operator=",
+          "return": "invalid_argument &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "invalid_argument &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:177"
+        }
+      ]
+    },
+    {
+      "name": "length_error",
+      "fields": [],
+      "methods": [
+        {
+          "name": "length_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:187"
+        },
+        {
+          "name": "length_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:189"
+        },
+        {
+          "name": "length_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const length_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:190"
+        },
+        {
+          "name": "operator=",
+          "return": "length_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const length_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:191"
+        },
+        {
+          "name": "length_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "length_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:192"
+        },
+        {
+          "name": "operator=",
+          "return": "length_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "length_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:193"
+        }
+      ]
+    },
+    {
+      "name": "out_of_range",
+      "fields": [],
+      "methods": [
+        {
+          "name": "out_of_range",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:203"
+        },
+        {
+          "name": "out_of_range",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:205"
+        },
+        {
+          "name": "out_of_range",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const out_of_range &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:206"
+        },
+        {
+          "name": "operator=",
+          "return": "out_of_range &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const out_of_range &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:207"
+        },
+        {
+          "name": "out_of_range",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "out_of_range &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:208"
+        },
+        {
+          "name": "operator=",
+          "return": "out_of_range &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "out_of_range &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:209"
+        }
+      ]
+    },
+    {
+      "name": "runtime_error",
+      "fields": [
+        {
+          "name": "_M_msg",
+          "type": "__cow_string"
+        }
+      ],
+      "methods": [
+        {
+          "name": "runtime_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:226"
+        },
+        {
+          "name": "runtime_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:230"
+        },
+        {
+          "name": "runtime_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "runtime_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:232"
+        },
+        {
+          "name": "operator=",
+          "return": "runtime_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "runtime_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:233"
+        },
+        {
+          "name": "runtime_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const runtime_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:237"
+        },
+        {
+          "name": "operator=",
+          "return": "runtime_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const runtime_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:238"
+        },
+        {
+          "name": "what",
+          "return": "const char *",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:249"
+        }
+      ]
+    },
+    {
+      "name": "range_error",
+      "fields": [],
+      "methods": [
+        {
+          "name": "range_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:261"
+        },
+        {
+          "name": "range_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:263"
+        },
+        {
+          "name": "range_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const range_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:264"
+        },
+        {
+          "name": "operator=",
+          "return": "range_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const range_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:265"
+        },
+        {
+          "name": "range_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "range_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:266"
+        },
+        {
+          "name": "operator=",
+          "return": "range_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "range_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:267"
+        }
+      ]
+    },
+    {
+      "name": "overflow_error",
+      "fields": [],
+      "methods": [
+        {
+          "name": "overflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:276"
+        },
+        {
+          "name": "overflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:278"
+        },
+        {
+          "name": "overflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const overflow_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:279"
+        },
+        {
+          "name": "operator=",
+          "return": "overflow_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const overflow_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:280"
+        },
+        {
+          "name": "overflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "overflow_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:281"
+        },
+        {
+          "name": "operator=",
+          "return": "overflow_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "overflow_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:282"
+        }
+      ]
+    },
+    {
+      "name": "underflow_error",
+      "fields": [],
+      "methods": [
+        {
+          "name": "underflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__arg",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:291"
+        },
+        {
+          "name": "underflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:293"
+        },
+        {
+          "name": "underflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const underflow_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:294"
+        },
+        {
+          "name": "operator=",
+          "return": "underflow_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const underflow_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:295"
+        },
+        {
+          "name": "underflow_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "underflow_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:296"
+        },
+        {
+          "name": "operator=",
+          "return": "underflow_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "underflow_error &&"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/stdexcept:297"
+        }
+      ]
+    },
+    {
+      "name": "error_code",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "error_condition",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "system_error",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "error_code",
+      "fields": [
+        {
+          "name": "_M_value",
+          "type": "int"
+        },
+        {
+          "name": "_M_cat",
+          "type": "const error_category *"
+        }
+      ],
+      "methods": [
+        {
+          "name": "error_code",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:230"
+        },
+        {
+          "name": "error_code",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__cat",
+              "type": "const error_category &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:233"
+        },
+        {
+          "name": "error_code",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const error_code &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:245"
+        },
+        {
+          "name": "operator=",
+          "return": "error_code &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const error_code &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:246"
+        },
+        {
+          "name": "assign",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__cat",
+              "type": "const error_category &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:249"
+        },
+        {
+          "name": "clear",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:256"
+        },
+        {
+          "name": "value",
+          "return": "int",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:262"
+        },
+        {
+          "name": "category",
+          "return": "const error_category &",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:267"
+        },
+        {
+          "name": "default_error_condition",
+          "return": "error_condition",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:271"
+        },
+        {
+          "name": "message",
+          "return": "string",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:276"
+        }
+      ]
+    },
+    {
+      "name": "error_condition",
+      "fields": [
+        {
+          "name": "_M_value",
+          "type": "int"
+        },
+        {
+          "name": "_M_cat",
+          "type": "const error_category *"
+        }
+      ],
+      "methods": [
+        {
+          "name": "error_condition",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:362"
+        },
+        {
+          "name": "error_condition",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__cat",
+              "type": "const error_category &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:366"
+        },
+        {
+          "name": "error_condition",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const error_condition &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:378"
+        },
+        {
+          "name": "operator=",
+          "return": "error_condition &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const error_condition &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:379"
+        },
+        {
+          "name": "assign",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__cat",
+              "type": "const error_category &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:383"
+        },
+        {
+          "name": "clear",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:391"
+        },
+        {
+          "name": "value",
+          "return": "int",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:399"
+        },
+        {
+          "name": "category",
+          "return": "const error_category &",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:404"
+        },
+        {
+          "name": "message",
+          "return": "string",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:409"
+        }
+      ]
+    },
+    {
+      "name": "system_error",
+      "fields": [
+        {
+          "name": "_M_code",
+          "type": "error_code"
+        }
+      ],
+      "methods": [
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__ec",
+              "type": "error_code"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:562"
+        },
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__ec",
+              "type": "error_code"
+            },
+            {
+              "name": "__what",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:565"
+        },
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__ec",
+              "type": "error_code"
+            },
+            {
+              "name": "__what",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:568"
+        },
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__ecat",
+              "type": "const error_category &"
+            },
+            {
+              "name": "__what",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:571"
+        },
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__ecat",
+              "type": "const error_category &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:574"
+        },
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__v",
+              "type": "int"
+            },
+            {
+              "name": "__ecat",
+              "type": "const error_category &"
+            },
+            {
+              "name": "__what",
+              "type": "const string &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:578"
+        },
+        {
+          "name": "system_error",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const system_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:583"
+        },
+        {
+          "name": "operator=",
+          "return": "system_error &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const system_error &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:584"
+        },
+        {
+          "name": "code",
+          "return": "const error_code &",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:590"
+        }
+      ]
+    },
+    {
+      "name": "ios_base",
+      "fields": [
+        {
+          "name": "_M_precision",
+          "type": "streamsize"
+        },
+        {
+          "name": "_M_width",
+          "type": "streamsize"
+        },
+        {
+          "name": "_M_flags",
+          "type": "fmtflags"
+        },
+        {
+          "name": "_M_exception",
+          "type": "iostate"
+        },
+        {
+          "name": "_M_streambuf_state",
+          "type": "iostate"
+        },
+        {
+          "name": "_M_callbacks",
+          "type": "_Callback_list *"
+        },
+        {
+          "name": "_M_word_zero",
+          "type": "_Words"
+        },
+        {
+          "name": "_M_local_word",
+          "type": "_Words[8]"
+        },
+        {
+          "name": "_M_word_size",
+          "type": "int"
+        },
+        {
+          "name": "_M_word",
+          "type": "_Words *"
+        },
+        {
+          "name": "_M_ios_locale",
+          "type": "locale"
+        }
+      ],
+      "methods": [
+        {
+          "name": "register_callback",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__fn",
+              "type": "event_callback"
+            },
+            {
+              "name": "__index",
+              "type": "int"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:555"
+        },
+        {
+          "name": "_M_call_callbacks",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__ev",
+              "type": "event"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:599"
+        },
+        {
+          "name": "_M_dispose_callbacks",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:602"
+        },
+        {
+          "name": "_M_grow_words",
+          "return": "_Words &",
+          "parameters": [
+            {
+              "name": "__index",
+              "type": "int"
+            },
+            {
+              "name": "__iword",
+              "type": "bool"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:625"
+        },
+        {
+          "name": "_M_init",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:631"
+        },
+        {
+          "name": "flags",
+          "return": "fmtflags",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:662"
+        },
+        {
+          "name": "flags",
+          "return": "fmtflags",
+          "parameters": [
+            {
+              "name": "__fmtfl",
+              "type": "fmtflags"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:673"
+        },
+        {
+          "name": "setf",
+          "return": "fmtflags",
+          "parameters": [
+            {
+              "name": "__fmtfl",
+              "type": "fmtflags"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:689"
+        },
+        {
+          "name": "setf",
+          "return": "fmtflags",
+          "parameters": [
+            {
+              "name": "__fmtfl",
+              "type": "fmtflags"
+            },
+            {
+              "name": "__mask",
+              "type": "fmtflags"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:706"
+        },
+        {
+          "name": "unsetf",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__mask",
+              "type": "fmtflags"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:721"
+        },
+        {
+          "name": "precision",
+          "return": "streamsize",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:732"
+        },
+        {
+          "name": "precision",
+          "return": "streamsize",
+          "parameters": [
+            {
+              "name": "__prec",
+              "type": "streamsize"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:741"
+        },
+        {
+          "name": "width",
+          "return": "streamsize",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:755"
+        },
+        {
+          "name": "width",
+          "return": "streamsize",
+          "parameters": [
+            {
+              "name": "__wide",
+              "type": "streamsize"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:764"
+        },
+        {
+          "name": "sync_with_stdio",
+          "return": "bool",
+          "parameters": [
+            {
+              "name": "__sync",
+              "type": "bool"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:783"
+        },
+        {
+          "name": "imbue",
+          "return": "locale",
+          "parameters": [
+            {
+              "name": "__loc",
+              "type": "const locale &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:795"
+        },
+        {
+          "name": "getloc",
+          "return": "locale",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:806"
+        },
+        {
+          "name": "_M_getloc",
+          "return": "const locale &",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:817"
+        },
+        {
+          "name": "xalloc",
+          "return": "int",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:836"
+        },
+        {
+          "name": "iword",
+          "return": "long &",
+          "parameters": [
+            {
+              "name": "__ix",
+              "type": "int"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:852"
+        },
+        {
+          "name": "pword",
+          "return": "void *&",
+          "parameters": [
+            {
+              "name": "__ix",
+              "type": "int"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:873"
+        },
+        {
+          "name": "ios_base",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:892"
+        },
+        {
+          "name": "ios_base",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const ios_base &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:904"
+        },
+        {
+          "name": "operator=",
+          "return": "ios_base &",
+          "parameters": [
+            {
+              "name": "",
+              "type": "const ios_base &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:907"
+        },
+        {
+          "name": "_M_move",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "",
+              "type": "ios_base &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:911"
+        },
+        {
+          "name": "_M_swap",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__rhs",
+              "type": "ios_base &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:914"
+        }
+      ]
+    },
+    {
+      "name": "basic_streambuf",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_streambuf",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "ctype",
+      "fields": [
+        {
+          "name": "_M_c_locale_ctype",
+          "type": "__c_locale"
+        },
+        {
+          "name": "_M_del",
+          "type": "bool"
+        },
+        {
+          "name": "_M_toupper",
+          "type": "__to_type"
+        },
+        {
+          "name": "_M_tolower",
+          "type": "__to_type"
+        },
+        {
+          "name": "_M_table",
+          "type": "const mask *"
+        },
+        {
+          "name": "_M_widen_ok",
+          "type": "char"
+        },
+        {
+          "name": "_M_widen",
+          "type": "char[256]"
+        },
+        {
+          "name": "_M_narrow",
+          "type": "char[256]"
+        },
+        {
+          "name": "_M_narrow_ok",
+          "type": "char"
+        }
+      ],
+      "methods": [
+        {
+          "name": "ctype",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__table",
+              "type": "const mask *"
+            },
+            {
+              "name": "__del",
+              "type": "bool"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:726"
+        },
+        {
+          "name": "ctype",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__cloc",
+              "type": "__c_locale"
+            },
+            {
+              "name": "__table",
+              "type": "const mask *"
+            },
+            {
+              "name": "__del",
+              "type": "bool"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:739"
+        },
+        {
+          "name": "is",
+          "return": "bool",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "mask"
+            },
+            {
+              "name": "__c",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:752"
+        },
+        {
+          "name": "is",
+          "return": "const char *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char *"
+            },
+            {
+              "name": "__vec",
+              "type": "mask *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:767"
+        },
+        {
+          "name": "scan_is",
+          "return": "const char *",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "mask"
+            },
+            {
+              "name": "__lo",
+              "type": "const char *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:781"
+        },
+        {
+          "name": "scan_not",
+          "return": "const char *",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "mask"
+            },
+            {
+              "name": "__lo",
+              "type": "const char *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:795"
+        },
+        {
+          "name": "toupper",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:810"
+        },
+        {
+          "name": "toupper",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:827"
+        },
+        {
+          "name": "tolower",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:843"
+        },
+        {
+          "name": "tolower",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:860"
+        },
+        {
+          "name": "widen",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:880"
+        },
+        {
+          "name": "widen",
+          "return": "const char *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char *"
+            },
+            {
+              "name": "__to",
+              "type": "char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:907"
+        },
+        {
+          "name": "narrow",
+          "return": "char",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            },
+            {
+              "name": "__dfault",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:939"
+        },
+        {
+          "name": "narrow",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__dfault",
+              "type": "char"
+            },
+            {
+              "name": "__to",
+              "type": "char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:972"
+        },
+        {
+          "name": "table",
+          "return": "const mask *",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:991"
+        },
+        {
+          "name": "classic_table",
+          "return": "const mask *",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:996"
+        },
+        {
+          "name": "do_toupper",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1022"
+        },
+        {
+          "name": "do_toupper",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1039"
+        },
+        {
+          "name": "do_tolower",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1055"
+        },
+        {
+          "name": "do_tolower",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1072"
+        },
+        {
+          "name": "do_widen",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1092"
+        },
+        {
+          "name": "do_widen",
+          "return": "const char *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char *"
+            },
+            {
+              "name": "__to",
+              "type": "char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1115"
+        },
+        {
+          "name": "do_narrow",
+          "return": "char",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            },
+            {
+              "name": "__dfault",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1142"
+        },
+        {
+          "name": "do_narrow",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__dfault",
+              "type": "char"
+            },
+            {
+              "name": "__to",
+              "type": "char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1168"
+        },
+        {
+          "name": "_M_narrow_init",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1177"
+        },
+        {
+          "name": "_M_widen_init",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1178"
+        }
+      ]
+    },
+    {
+      "name": "ctype",
+      "fields": [
+        {
+          "name": "_M_c_locale_ctype",
+          "type": "__c_locale"
+        },
+        {
+          "name": "_M_narrow_ok",
+          "type": "bool"
+        },
+        {
+          "name": "_M_narrow",
+          "type": "char[128]"
+        },
+        {
+          "name": "_M_widen",
+          "type": "wint_t[256]"
+        },
+        {
+          "name": "_M_bit",
+          "type": "mask[16]"
+        },
+        {
+          "name": "_M_wmask",
+          "type": "__wmask_type[16]"
+        }
+      ],
+      "methods": [
+        {
+          "name": "ctype",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1227"
+        },
+        {
+          "name": "ctype",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__cloc",
+              "type": "__c_locale"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1238"
+        },
+        {
+          "name": "_M_convert_to_wmask",
+          "return": "__wmask_type",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "const mask"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1242"
+        },
+        {
+          "name": "do_is",
+          "return": "bool",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "mask"
+            },
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1262"
+        },
+        {
+          "name": "do_is",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__vec",
+              "type": "mask *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1281"
+        },
+        {
+          "name": "do_scan_is",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "mask"
+            },
+            {
+              "name": "__lo",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1299"
+        },
+        {
+          "name": "do_scan_not",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__m",
+              "type": "mask"
+            },
+            {
+              "name": "__lo",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1317"
+        },
+        {
+          "name": "do_toupper",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1334"
+        },
+        {
+          "name": "do_toupper",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1351"
+        },
+        {
+          "name": "do_tolower",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1367"
+        },
+        {
+          "name": "do_tolower",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1384"
+        },
+        {
+          "name": "do_widen",
+          "return": "char_type",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1404"
+        },
+        {
+          "name": "do_widen",
+          "return": "const char *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char *"
+            },
+            {
+              "name": "__to",
+              "type": "char_type *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1426"
+        },
+        {
+          "name": "do_narrow",
+          "return": "char",
+          "parameters": [
+            {
+              "name": "__c",
+              "type": "char_type"
+            },
+            {
+              "name": "__dfault",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1449"
+        },
+        {
+          "name": "do_narrow",
+          "return": "const char_type *",
+          "parameters": [
+            {
+              "name": "__lo",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__hi",
+              "type": "const char_type *"
+            },
+            {
+              "name": "__dfault",
+              "type": "char"
+            },
+            {
+              "name": "__to",
+              "type": "char *"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1475"
+        },
+        {
+          "name": "_M_initialize_ctype",
+          "return": "void",
+          "parameters": [],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1480"
+        }
+      ]
+    },
+    {
+      "name": "ctype_byname",
+      "fields": [],
+      "methods": [
+        {
+          "name": "ctype_byname",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__s",
+              "type": "const char *"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1511"
+        },
+        {
+          "name": "ctype_byname",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__s",
+              "type": "const string &"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1515"
+        }
+      ]
+    },
+    {
+      "name": "ctype_byname",
+      "fields": [],
+      "methods": [
+        {
+          "name": "ctype_byname",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__s",
+              "type": "const char *"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1529"
+        },
+        {
+          "name": "ctype_byname",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__s",
+              "type": "const string &"
+            },
+            {
+              "name": "__refs",
+              "type": "size_t"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1533"
+        }
+      ]
+    },
+    {
+      "name": "__num_base",
+      "fields": [],
+      "methods": [
+        {
+          "name": "_S_format_float",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__io",
+              "type": "const ios_base &"
+            },
+            {
+              "name": "__fptr",
+              "type": "char *"
+            },
+            {
+              "name": "__mod",
+              "type": "char"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:1599"
+        }
+      ]
+    },
+    {
+      "name": "numpunct",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "numpunct_byname",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "num_get",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "num_put",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "ctype_byname",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "numpunct",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "numpunct_byname",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "num_get",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "num_put",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "ctype_byname",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_ios",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_ios",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "sentry",
+      "fields": [
+        {
+          "name": "_M_ok",
+          "type": "bool"
+        },
+        {
+          "name": "_M_os",
+          "type": "basic_ostream<_CharT, _Traits> &"
+        }
+      ],
+      "methods": [
+        {
+          "name": "sentry",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__os",
+              "type": "basic_ostream<_CharT, _Traits> &"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ostream:499"
+        }
+      ]
+    },
+    {
+      "name": "basic_ostream",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_ostream",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "sentry",
+      "fields": [
+        {
+          "name": "_M_ok",
+          "type": "bool"
+        }
+      ],
+      "methods": [
+        {
+          "name": "sentry",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "__is",
+              "type": "basic_istream<_CharT, _Traits> &"
+            },
+            {
+              "name": "__noskipws",
+              "type": "bool"
+            }
+          ],
+          "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream:812"
+        }
+      ]
+    },
+    {
+      "name": "basic_istream",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_iostream",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_istream",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "basic_iostream",
+      "fields": [],
+      "methods": []
+    },
+    {
+      "name": "Base",
+      "fields": [
+        {
+          "name": "base_value",
+          "type": "int"
+        }
+      ],
+      "methods": [
+        {
+          "name": "greet",
+          "return": "void",
+          "parameters": [],
+          "location": "examples/sample.cpp:6"
+        }
+      ]
+    },
+    {
+      "name": "Derived",
+      "fields": [
+        {
+          "name": "base_value",
+          "type": "int"
+        }
+      ],
+      "methods": [
+        {
+          "name": "Derived",
+          "return": "void",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "int"
+            }
+          ],
+          "location": "examples/sample.cpp:13"
+        },
+        {
+          "name": "greet",
+          "return": "void",
+          "parameters": [],
+          "location": "examples/sample.cpp:14"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "name": "__is_constant_evaluated",
+      "return": "bool",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h:540"
+    },
+    {
+      "name": "_Hash_bytes",
+      "return": "size_t",
+      "parameters": [
+        {
+          "name": "__ptr",
+          "type": "const void *"
+        },
+        {
+          "name": "__len",
+          "type": "size_t"
+        },
+        {
+          "name": "__seed",
+          "type": "size_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/hash_bytes.h:47"
+    },
+    {
+      "name": "_Fnv_hash_bytes",
+      "return": "size_t",
+      "parameters": [
+        {
+          "name": "__ptr",
+          "type": "const void *"
+        },
+        {
+          "name": "__len",
+          "type": "size_t"
+        },
+        {
+          "name": "__seed",
+          "type": "size_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/hash_bytes.h:54"
+    },
+    {
+      "name": "launder",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "void *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/new:204"
+    },
+    {
+      "name": "launder",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const void *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/new:205"
+    },
+    {
+      "name": "launder",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "volatile void *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/new:206"
+    },
+    {
+      "name": "launder",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const volatile void *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/new:207"
+    },
+    {
+      "name": "__convert_from_v",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cloc",
+          "type": "const __c_locale &"
+        },
+        {
+          "name": "__out",
+          "type": "char *"
+        },
+        {
+          "name": "__size",
+          "type": "const int"
+        },
+        {
+          "name": "__fmt",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++locale.h:74"
+    },
+    {
+      "name": "__gthread_active_p",
+      "return": "int",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:300"
+    },
+    {
+      "name": "__gthread_create",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__threadid",
+          "type": "__gthread_t *"
+        },
+        {
+          "name": "__func",
+          "type": "void *(*)(void *)"
+        },
+        {
+          "name": "__args",
+          "type": "void *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:660"
+    },
+    {
+      "name": "__gthread_join",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__threadid",
+          "type": "__gthread_t"
+        },
+        {
+          "name": "__value_ptr",
+          "type": "void **"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:667"
+    },
+    {
+      "name": "__gthread_detach",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__threadid",
+          "type": "__gthread_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:673"
+    },
+    {
+      "name": "__gthread_equal",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__t1",
+          "type": "__gthread_t"
+        },
+        {
+          "name": "__t2",
+          "type": "__gthread_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:679"
+    },
+    {
+      "name": "__gthread_self",
+      "return": "__gthread_t",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:685"
+    },
+    {
+      "name": "__gthread_yield",
+      "return": "int",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:691"
+    },
+    {
+      "name": "__gthread_once",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__once",
+          "type": "__gthread_once_t *"
+        },
+        {
+          "name": "__func",
+          "type": "void (*)()"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:697"
+    },
+    {
+      "name": "__gthread_key_create",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__key",
+          "type": "__gthread_key_t *"
+        },
+        {
+          "name": "__dtor",
+          "type": "void (*)(void *)"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:706"
+    },
+    {
+      "name": "__gthread_key_delete",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__key",
+          "type": "__gthread_key_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:712"
+    },
+    {
+      "name": "__gthread_getspecific",
+      "return": "void *",
+      "parameters": [
+        {
+          "name": "__key",
+          "type": "__gthread_key_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:718"
+    },
+    {
+      "name": "__gthread_setspecific",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__key",
+          "type": "__gthread_key_t"
+        },
+        {
+          "name": "__ptr",
+          "type": "const void *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:724"
+    },
+    {
+      "name": "__gthread_mutex_init_function",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:730"
+    },
+    {
+      "name": "__gthread_mutex_destroy",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:737"
+    },
+    {
+      "name": "__gthread_mutex_lock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:746"
+    },
+    {
+      "name": "__gthread_mutex_trylock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:755"
+    },
+    {
+      "name": "__gthread_mutex_timedlock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        },
+        {
+          "name": "__abs_timeout",
+          "type": "const __gthread_time_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:765"
+    },
+    {
+      "name": "__gthread_mutex_unlock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:776"
+    },
+    {
+      "name": "__gthread_recursive_mutex_lock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_recursive_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:809"
+    },
+    {
+      "name": "__gthread_recursive_mutex_trylock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_recursive_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:815"
+    },
+    {
+      "name": "__gthread_recursive_mutex_timedlock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_recursive_mutex_t *"
+        },
+        {
+          "name": "__abs_timeout",
+          "type": "const __gthread_time_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:822"
+    },
+    {
+      "name": "__gthread_recursive_mutex_unlock",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_recursive_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:830"
+    },
+    {
+      "name": "__gthread_recursive_mutex_destroy",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__mutex",
+          "type": "__gthread_recursive_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:836"
+    },
+    {
+      "name": "__gthread_cond_broadcast",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cond",
+          "type": "__gthread_cond_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:851"
+    },
+    {
+      "name": "__gthread_cond_signal",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cond",
+          "type": "__gthread_cond_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:857"
+    },
+    {
+      "name": "__gthread_cond_wait",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cond",
+          "type": "__gthread_cond_t *"
+        },
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:863"
+    },
+    {
+      "name": "__gthread_cond_timedwait",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cond",
+          "type": "__gthread_cond_t *"
+        },
+        {
+          "name": "__mutex",
+          "type": "__gthread_mutex_t *"
+        },
+        {
+          "name": "__abs_timeout",
+          "type": "const __gthread_time_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:869"
+    },
+    {
+      "name": "__gthread_cond_wait_recursive",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cond",
+          "type": "__gthread_cond_t *"
+        },
+        {
+          "name": "__mutex",
+          "type": "__gthread_recursive_mutex_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:876"
+    },
+    {
+      "name": "__gthread_cond_destroy",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__cond",
+          "type": "__gthread_cond_t *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:883"
+    },
+    {
+      "name": "__is_single_threaded",
+      "return": "bool",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:47"
+    },
+    {
+      "name": "__exchange_and_add",
+      "return": "_Atomic_word",
+      "parameters": [
+        {
+          "name": "__mem",
+          "type": "volatile _Atomic_word *"
+        },
+        {
+          "name": "__val",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:65"
+    },
+    {
+      "name": "__atomic_add",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "__mem",
+          "type": "volatile _Atomic_word *"
+        },
+        {
+          "name": "__val",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:70"
+    },
+    {
+      "name": "__exchange_and_add_single",
+      "return": "_Atomic_word",
+      "parameters": [
+        {
+          "name": "__mem",
+          "type": "_Atomic_word *"
+        },
+        {
+          "name": "__val",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:82"
+    },
+    {
+      "name": "__atomic_add_single",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "__mem",
+          "type": "_Atomic_word *"
+        },
+        {
+          "name": "__val",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:91"
+    },
+    {
+      "name": "__exchange_and_add_dispatch",
+      "return": "_Atomic_word",
+      "parameters": [
+        {
+          "name": "__mem",
+          "type": "_Atomic_word *"
+        },
+        {
+          "name": "__val",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:96"
+    },
+    {
+      "name": "__atomic_add_dispatch",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "__mem",
+          "type": "_Atomic_word *"
+        },
+        {
+          "name": "__val",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/atomicity.h:106"
+    },
+    {
+      "name": "__throw_bad_exception",
+      "return": "void",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:49"
+    },
+    {
+      "name": "__throw_bad_alloc",
+      "return": "void",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:53"
+    },
+    {
+      "name": "__throw_bad_array_new_length",
+      "return": "void",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:56"
+    },
+    {
+      "name": "__throw_bad_cast",
+      "return": "void",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:60"
+    },
+    {
+      "name": "__throw_bad_typeid",
+      "return": "void",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:63"
+    },
+    {
+      "name": "__throw_logic_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:67"
+    },
+    {
+      "name": "__throw_domain_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:70"
+    },
+    {
+      "name": "__throw_invalid_argument",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:73"
+    },
+    {
+      "name": "__throw_length_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:76"
+    },
+    {
+      "name": "__throw_out_of_range",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:79"
+    },
+    {
+      "name": "__throw_out_of_range_fmt",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:82"
+    },
+    {
+      "name": "__throw_runtime_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:86"
+    },
+    {
+      "name": "__throw_range_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:89"
+    },
+    {
+      "name": "__throw_overflow_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:92"
+    },
+    {
+      "name": "__throw_underflow_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:95"
+    },
+    {
+      "name": "__throw_ios_failure",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:99"
+    },
+    {
+      "name": "__throw_ios_failure",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        },
+        {
+          "name": "",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:102"
+    },
+    {
+      "name": "__throw_system_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:106"
+    },
+    {
+      "name": "__throw_future_error",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:110"
+    },
+    {
+      "name": "__throw_bad_function_call",
+      "return": "void",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/functexcept.h:114"
+    },
+    {
+      "name": "__fill_a1",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "std::_Bit_iterator"
+        },
+        {
+          "name": "",
+          "type": "std::_Bit_iterator"
+        },
+        {
+          "name": "",
+          "type": "const bool &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:970"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1012"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "unsigned int",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "unsigned int"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1014"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "long"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1016"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "unsigned long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "unsigned long"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1018"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "long long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "long long"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1020"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "unsigned long long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "unsigned long long"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1022"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "long long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "float"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1050"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "long long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "double"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1052"
+    },
+    {
+      "name": "__size_to_integer",
+      "return": "long long",
+      "parameters": [
+        {
+          "name": "__n",
+          "type": "long double"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_algobase.h:1054"
+    },
+    {
+      "name": "__sv_check",
+      "return": "size_t",
+      "parameters": [
+        {
+          "name": "__size",
+          "type": "size_t"
+        },
+        {
+          "name": "__pos",
+          "type": "size_t"
+        },
+        {
+          "name": "__s",
+          "type": "const char *"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/string_view:70"
+    },
+    {
+      "name": "__sv_limit",
+      "return": "size_t",
+      "parameters": [
+        {
+          "name": "__size",
+          "type": "size_t"
+        },
+        {
+          "name": "__pos",
+          "type": "size_t"
+        },
+        {
+          "name": "__off",
+          "type": "size_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/string_view:81"
+    },
+    {
+      "name": "operator>>",
+      "return": "basic_istream<char> &",
+      "parameters": [
+        {
+          "name": "__is",
+          "type": "basic_istream<char> &"
+        },
+        {
+          "name": "__str",
+          "type": "basic_string<char> &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_string.h:4019"
+    },
+    {
+      "name": "getline",
+      "return": "basic_istream<char> &",
+      "parameters": [
+        {
+          "name": "__in",
+          "type": "basic_istream<char> &"
+        },
+        {
+          "name": "__str",
+          "type": "basic_string<char> &"
+        },
+        {
+          "name": "__delim",
+          "type": "char"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_string.h:4094"
+    },
+    {
+      "name": "getline",
+      "return": "basic_istream<wchar_t> &",
+      "parameters": [
+        {
+          "name": "__in",
+          "type": "basic_istream<wchar_t> &"
+        },
+        {
+          "name": "__str",
+          "type": "basic_string<wchar_t> &"
+        },
+        {
+          "name": "__delim",
+          "type": "wchar_t"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_string.h:4100"
+    },
+    {
+      "name": "make_error_code",
+      "return": "error_code",
+      "parameters": [
+        {
+          "name": "__e",
+          "type": "errc"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:302"
+    },
+    {
+      "name": "operator<",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_code &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_code &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:324"
+    },
+    {
+      "name": "make_error_condition",
+      "return": "error_condition",
+      "parameters": [
+        {
+          "name": "__e",
+          "type": "errc"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:435"
+    },
+    {
+      "name": "operator==",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_code &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_code &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:449"
+    },
+    {
+      "name": "operator==",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_code &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_condition &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:465"
+    },
+    {
+      "name": "operator==",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_condition &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_condition &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:480"
+    },
+    {
+      "name": "operator<",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_condition &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_condition &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:507"
+    },
+    {
+      "name": "operator==",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_condition &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_code &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:517"
+    },
+    {
+      "name": "operator!=",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_code &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_code &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:525"
+    },
+    {
+      "name": "operator!=",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_code &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_condition &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:530"
+    },
+    {
+      "name": "operator!=",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_condition &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_code &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:535"
+    },
+    {
+      "name": "operator!=",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__lhs",
+          "type": "const error_condition &"
+        },
+        {
+          "name": "__rhs",
+          "type": "const error_condition &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/system_error:540"
+    },
+    {
+      "name": "operator&",
+      "return": "_Ios_Fmtflags",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:83"
+    },
+    {
+      "name": "operator|",
+      "return": "_Ios_Fmtflags",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:87"
+    },
+    {
+      "name": "operator^",
+      "return": "_Ios_Fmtflags",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:91"
+    },
+    {
+      "name": "operator~",
+      "return": "_Ios_Fmtflags",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:95"
+    },
+    {
+      "name": "operator|=",
+      "return": "const _Ios_Fmtflags &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:99"
+    },
+    {
+      "name": "operator&=",
+      "return": "const _Ios_Fmtflags &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:103"
+    },
+    {
+      "name": "operator^=",
+      "return": "const _Ios_Fmtflags &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Fmtflags &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Fmtflags"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:107"
+    },
+    {
+      "name": "operator&",
+      "return": "_Ios_Openmode",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:126"
+    },
+    {
+      "name": "operator|",
+      "return": "_Ios_Openmode",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:130"
+    },
+    {
+      "name": "operator^",
+      "return": "_Ios_Openmode",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:134"
+    },
+    {
+      "name": "operator~",
+      "return": "_Ios_Openmode",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:138"
+    },
+    {
+      "name": "operator|=",
+      "return": "const _Ios_Openmode &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:142"
+    },
+    {
+      "name": "operator&=",
+      "return": "const _Ios_Openmode &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:146"
+    },
+    {
+      "name": "operator^=",
+      "return": "const _Ios_Openmode &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Openmode &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Openmode"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:150"
+    },
+    {
+      "name": "operator&",
+      "return": "_Ios_Iostate",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:166"
+    },
+    {
+      "name": "operator|",
+      "return": "_Ios_Iostate",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:170"
+    },
+    {
+      "name": "operator^",
+      "return": "_Ios_Iostate",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:174"
+    },
+    {
+      "name": "operator~",
+      "return": "_Ios_Iostate",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:178"
+    },
+    {
+      "name": "operator|=",
+      "return": "const _Ios_Iostate &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:182"
+    },
+    {
+      "name": "operator&=",
+      "return": "const _Ios_Iostate &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:186"
+    },
+    {
+      "name": "operator^=",
+      "return": "const _Ios_Iostate &",
+      "parameters": [
+        {
+          "name": "__a",
+          "type": "_Ios_Iostate &"
+        },
+        {
+          "name": "__b",
+          "type": "_Ios_Iostate"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:190"
+    },
+    {
+      "name": "iostream_category",
+      "return": "const error_category &",
+      "parameters": [],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:210"
+    },
+    {
+      "name": "make_error_code",
+      "return": "error_code",
+      "parameters": [
+        {
+          "name": "__e",
+          "type": "io_errc"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:214"
+    },
+    {
+      "name": "make_error_condition",
+      "return": "error_condition",
+      "parameters": [
+        {
+          "name": "__e",
+          "type": "io_errc"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:219"
+    },
+    {
+      "name": "boolalpha",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:921"
+    },
+    {
+      "name": "noboolalpha",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:929"
+    },
+    {
+      "name": "showbase",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:937"
+    },
+    {
+      "name": "noshowbase",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:945"
+    },
+    {
+      "name": "showpoint",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:953"
+    },
+    {
+      "name": "noshowpoint",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:961"
+    },
+    {
+      "name": "showpos",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:969"
+    },
+    {
+      "name": "noshowpos",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:977"
+    },
+    {
+      "name": "skipws",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:985"
+    },
+    {
+      "name": "noskipws",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:993"
+    },
+    {
+      "name": "uppercase",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1001"
+    },
+    {
+      "name": "nouppercase",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1009"
+    },
+    {
+      "name": "unitbuf",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1017"
+    },
+    {
+      "name": "nounitbuf",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1025"
+    },
+    {
+      "name": "internal",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1034"
+    },
+    {
+      "name": "left",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1042"
+    },
+    {
+      "name": "right",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1050"
+    },
+    {
+      "name": "dec",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1059"
+    },
+    {
+      "name": "hex",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1067"
+    },
+    {
+      "name": "oct",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1075"
+    },
+    {
+      "name": "fixed",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1084"
+    },
+    {
+      "name": "scientific",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1092"
+    },
+    {
+      "name": "hexfloat",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1104"
+    },
+    {
+      "name": "defaultfloat",
+      "return": "ios_base &",
+      "parameters": [
+        {
+          "name": "__base",
+          "type": "ios_base &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ios_base.h:1112"
+    },
+    {
+      "name": "__copy_streambufs_eof",
+      "return": "streamsize",
+      "parameters": [
+        {
+          "name": "__sbin",
+          "type": "basic_streambuf<char> *"
+        },
+        {
+          "name": "__sbout",
+          "type": "basic_streambuf<char> *"
+        },
+        {
+          "name": "__ineof",
+          "type": "bool &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/streambuf:846"
+    },
+    {
+      "name": "__copy_streambufs_eof",
+      "return": "streamsize",
+      "parameters": [
+        {
+          "name": "__sbin",
+          "type": "basic_streambuf<wchar_t> *"
+        },
+        {
+          "name": "__sbout",
+          "type": "basic_streambuf<wchar_t> *"
+        },
+        {
+          "name": "__ineof",
+          "type": "bool &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/streambuf:851"
+    },
+    {
+      "name": "__convert_to_v",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        },
+        {
+          "name": "",
+          "type": "float &"
+        },
+        {
+          "name": "",
+          "type": "ios_base::iostate &"
+        },
+        {
+          "name": "",
+          "type": "const __c_locale &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:82"
+    },
+    {
+      "name": "__convert_to_v",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        },
+        {
+          "name": "",
+          "type": "double &"
+        },
+        {
+          "name": "",
+          "type": "ios_base::iostate &"
+        },
+        {
+          "name": "",
+          "type": "const __c_locale &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:87"
+    },
+    {
+      "name": "__convert_to_v",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "const char *"
+        },
+        {
+          "name": "",
+          "type": "long double &"
+        },
+        {
+          "name": "",
+          "type": "ios_base::iostate &"
+        },
+        {
+          "name": "",
+          "type": "const __c_locale &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.h:92"
+    },
+    {
+      "name": "__verify_grouping",
+      "return": "bool",
+      "parameters": [
+        {
+          "name": "__grouping",
+          "type": "const char *"
+        },
+        {
+          "name": "__grouping_size",
+          "type": "size_t"
+        },
+        {
+          "name": "__grouping_tmp",
+          "type": "const string &"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.tcc:140"
+    },
+    {
+      "name": "__istream_extract",
+      "return": "void",
+      "parameters": [
+        {
+          "name": "",
+          "type": "istream &"
+        },
+        {
+          "name": "",
+          "type": "char *"
+        },
+        {
+          "name": "",
+          "type": "streamsize"
+        }
+      ],
+      "location": "/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream:860"
+    },
+    {
+      "name": "add",
+      "return": "int",
+      "parameters": [
+        {
+          "name": "a",
+          "type": "int"
+        },
+        {
+          "name": "b",
+          "type": "int"
+        }
+      ],
+      "location": "examples/sample.cpp:21"
+    }
+  ]
+}
